@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D65C6035-2948-42C1-96D2-9ABA8ADF395B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Ql_Sinh_Vien</RootNamespace>
+    <AssemblyName>Ql_Sinh_Vien</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessLogicLayer\canchinh.cs" />
+    <Compile Include="BusinessLogicLayer\QLCNBUSS.cs" />
+    <Compile Include="BusinessLogicLayer\QLCTSVBUSS.cs" />
+    <Compile Include="BusinessLogicLayer\QLLOPBUS.cs" />
+    <Compile Include="BusinessLogicLayer\QLSVBUS.cs" />
+    <Compile Include="BusinessLogicLayer\QuanLiKhoa.cs" />
+    <Compile Include="BusinessLogicLayer\thongkechuyennganh1.cs" />
+    <Compile Include="BusinessLogicLayer\thongkekhoa1.cs" />
+    <Compile Include="BusinessLogicLayer\tkelopbuss.cs" />
+    <Compile Include="DataAccessLayer\Chuyennganh.cs" />
+    <Compile Include="DataAccessLayer\ChuyenNganhDOC.cs" />
+    <Compile Include="DataAccessLayer\CongTacsv.cs" />
+    <Compile Include="DataAccessLayer\KHOA.cs" />
+    <Compile Include="DataAccessLayer\LopDoc.cs" />
+    <Compile Include="DataAccessLayer\KHOA_DOC.cs" />
+    <Compile Include="DataAccessLayer\LOP.cs" />
+    <Compile Include="DataAccessLayer\QLCTSV.cs" />
+    <Compile Include="DataAccessLayer\Sinhvien.cs" />
+    <Compile Include="DataAccessLayer\SINHVIEN_DOC.cs" />
+    <Compile Include="DataAccessLayer\thongkecn.cs" />
+    <Compile Include="DataAccessLayer\Thongkekhoa.cs" />
+    <Compile Include="DataAccessLayer\thongkelop.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="view\menustart.cs" />
+    <Compile Include="view\thongkechuyennganh.cs" />
+    <Compile Include="view\thongkekhoaview.cs" />
+    <Compile Include="view\thongkelopview.cs" />
+    <Compile Include="view\ViewCTSV.cs" />
+    <Compile Include="view\Viewkhoa.cs" />
+    <Compile Include="view\Viewchuyennganh.cs" />
+    <Compile Include="view\ViewLop.cs" />
+    <Compile Include="view\ViewSinhvien.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

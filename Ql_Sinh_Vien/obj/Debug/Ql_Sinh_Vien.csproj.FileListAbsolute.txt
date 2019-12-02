@@ -1,0 +1,7 @@
+C:\Users\ADMIN\source\repos\Ql_Sinh_Vien\Ql_Sinh_Vien\bin\Debug\Ql_Sinh_Vien.exe.config
+C:\Users\ADMIN\source\repos\Ql_Sinh_Vien\Ql_Sinh_Vien\bin\Debug\Ql_Sinh_Vien.exe
+C:\Users\ADMIN\source\repos\Ql_Sinh_Vien\Ql_Sinh_Vien\bin\Debug\Ql_Sinh_Vien.pdb
+C:\Users\ADMIN\source\repos\Ql_Sinh_Vien\Ql_Sinh_Vien\obj\Debug\Ql_Sinh_Vien.csprojAssemblyReference.cache
+C:\Users\ADMIN\source\repos\Ql_Sinh_Vien\Ql_Sinh_Vien\obj\Debug\Ql_Sinh_Vien.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\Ql_Sinh_Vien\Ql_Sinh_Vien\obj\Debug\Ql_Sinh_Vien.exe
+C:\Users\ADMIN\source\repos\Ql_Sinh_Vien\Ql_Sinh_Vien\obj\Debug\Ql_Sinh_Vien.pdb
